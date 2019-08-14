@@ -11808,7 +11808,13 @@ th.disease_detail{
 
       <td>MTHFR </td>
       <td>GG</td>
-      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[358][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[358][3].'</div>';
+                echo $genotype[358][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11826,25 +11832,49 @@ th.disease_detail{
 
       <td>APE1</td>
       <td>GG</td>
-      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[349][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[349][3].'</div>';
+                echo $genotype[349][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>RAD51L1</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[351][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[351][3].'</div>';
+                echo $genotype[351][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>BRCA1</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[467][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[467][3].'</div>';
+                echo $genotype[467][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>BRCA2</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>AA</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[468][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[468][3].'</div>';
+                echo $genotype[468][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11862,20 +11892,38 @@ th.disease_detail{
       </th>
 
       <td>IL23</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>CC</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[359][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[359][3].'</div>';
+                echo $genotype[359][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>MAP3K1</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[355][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[355][3].'</div>';
+                echo $genotype[355][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>IL-17A</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[356][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[356][3].'</div>';
+                echo $genotype[356][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11890,14 +11938,26 @@ th.disease_detail{
       </th>
 
       <td>GSTP1</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>AA</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[360][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[360][3].'</div>';
+                echo $genotype[360][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>ABCB1</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[361][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[361][3].'</div>';
+                echo $genotype[361][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11913,7 +11973,13 @@ th.disease_detail{
 
       <td>APOB</td>
       <td>GG</td>
-      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[350][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[350][3].'</div>';
+                echo $genotype[350][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11931,26 +11997,50 @@ th.disease_detail{
       </th>
 
       <td>HUNK</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[352][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[352][3].'</div>';
+                echo $genotype[352][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>FGFR2-1</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>AA</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[353][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[353][3].'</div>';
+                echo $genotype[353][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>FGFR2-2</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[354][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[354][3].'</div>';
+                echo $genotype[354][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>LOX</td>
       <td>CC</td>
-      <td>CC</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[357][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[357][3].'</div>';
+                echo $genotype[357][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -11968,13 +12058,25 @@ th.disease_detail{
 
       <td>CCND1</td>
       <td>GG</td>
-      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[362][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[362][3].'</div>';
+                echo $genotype[362][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
     <tr align = "center">
       <td>VEGF</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[363][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[363][3].'</div>';
+                echo $genotype[363][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -12009,8 +12111,6 @@ th.disease_detail{
     <tr>
       <td>
         <ul style="list-style-type:square;">
-          <li>卵巢癌
-          </li>
           <li>卵巢癌好發於四十歲至七十歲婦女，其可能發生於任何年齡群，發生率隨<br>
               年齡逐年增高。
           </li>
@@ -12073,11 +12173,17 @@ th.disease_detail{
 
       <td>MTHFR </td>
       <td>GG</td>
-      <td>AG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[366][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[366][3].'</div>';
+                echo $genotype[366][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
-     <tr>
+     <tr align = "center">
       <th rowspan = "3">
         <ul style="list-style-type:none; text-align: left">
           <li>影響DNA修復能力：<li>
@@ -12090,27 +12196,45 @@ th.disease_detail{
       </th>
 
       <td>OGG1</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>CC</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[369][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[369][3].'</div>';
+                echo $genotype[369][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
-    <tr>
+    <tr align = "center">
       <td>IL-18</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[365][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[365][3].'</div>';
+                echo $genotype[365][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
-    <tr>
+    <tr align = "center">
       <td>IL23</td>
       <td>CC</td>
-      <td>CC</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[370][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[370][3].'</div>';
+                echo $genotype[370][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
 
 
 
-    <tr>
+    <tr align = "center">
       <th rowspan = "1">
         <ul style="list-style-type:none; text-align: left">
           <li>毒物代謝的功能：</li>
@@ -12121,13 +12245,19 @@ th.disease_detail{
       </th>
 
       <td>CYP1A1</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[368][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[368][3].'</div>';
+                echo $genotype[368][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
 
-     <tr>
+     <tr align = "center">
       <th rowspan = "5">
         <ul style="list-style-type:none; text-align: left">
           <li>細胞生長、細胞凋亡的調控：</li>
@@ -12140,33 +12270,63 @@ th.disease_detail{
       </th>
 
       <td>LOX</td>
-      <td>GG</td>
-      <td>AG</td>
+      <td>CC</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[367][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[367][3].'</div>';
+                echo $genotype[367][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
-    <tr>
+    <tr align = "center">
       <td>FSHR</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[364][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[364][3].'</div>';
+                echo $genotype[364][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
-    <tr>
+    <tr align = "center">
       <td>MMP2</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[372][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[372][3].'</div>';
+                echo $genotype[372][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
-    <tr>
+    <tr align = "center">
       <td>FASL</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[373][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[373][3].'</div>';
+                echo $genotype[373][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
-    <tr>
+    <tr align = "center">
       <td>MMP12</td>
-      <td>CC</td>
-      <td>CC</td>
+      <td>TT</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[371][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[371][3].'</div>';
+                echo $genotype[371][2];
+          ?>
+        </font>
+      </td>
     </tr>
 
 
@@ -12184,6 +12344,557 @@ th.disease_detail{
    </ul>
 
  </div>
+
+
+
+
+
+ <div class="disease_title">
+    <table class="table_disease_tile">
+     <tr>
+       <th>子宮頸癌</th>
+       <th>盛行率</th>
+     </tr>
+
+
+     <tr>
+       <td>
+         <ul style="list-style-type:square;">
+           <li>子宮頸癌可以說是華人婦女癌症的熱門排行榜之冠。
+           </li>
+           <li>常見的危險因子包含:部分高風險人類乳突病毒(HPV)感染、性伴侶人<br>
+               數、吸菸、女性荷爾蒙、免疫缺陷等。
+           </li>
+         </ul>
+       </td>
+
+
+       <td>
+         <ul style="list-style-type:none;">
+           <li>約萬分之<br>
+               22.8~23.6
+           </li>
+         </ul>
+       </td>
+
+     </tr>
+
+   </table>
+
+
+ </div>
+
+
+
+
+ <div class="disease_detail">
+
+
+   <table class="table_disease_detail" FRAME="VOID" BORDER="2" RULES="ALL">
+
+     <tr align="center">
+       <th scope=col>項目</th>
+       <th scope=col>基因功能類別</th>
+       <th scope=col>基因名稱</th>
+       <th scope=col>一般風險基因型</th>
+       <th scope=col>您的基因型</th>
+     </tr>
+
+
+     <tr align="center">
+       <th rowspan = "14">
+         <font color = "#5DADE2">子宮<br>頸癌</font>
+       </th>
+
+       <th rowspan = "3">
+         <ul style="list-style-type:none; text-align: left">
+           <li>影響DNA修復能力：<li>
+           <li>帶有高風險基因型會影響鹼基切除修復<br>
+               (BER)、DNA雙鏈斷裂修復、訊號傳遞<br>
+               等調控作用，使DNA損傷造成的異常逐<br>
+               漸在體內累積。
+           </li>
+         </ul>
+       </th>
+
+       <td>XRCC3</td>
+       <td>CC</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[382][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[382][3].'</div>';
+                 echo $genotype[382][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+     <tr align = "center">
+       <td>XRCC1</td>
+       <td>GG</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[387][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[387][3].'</div>';
+                 echo $genotype[387][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+     <tr align = "center">
+       <td>PARP1</td>
+       <td>AA</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[390][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[390][3].'</div>';
+                 echo $genotype[390][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+
+
+      <tr align = "center">
+       <th rowspan = "5">
+         <ul style="list-style-type:none; text-align: left">
+           <li>免疫反應的調節：</li>
+           <li>帶有高風險基因型會使體內發炎激素<br>
+               或細胞介素的誘發表現量異常，提高<br>
+               子宮頸癌易感性。<br>
+           </li>
+         </ul>
+       </th>
+
+       <td>IL12B</td>
+       <td>TT</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[391][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[391][3].'</div>';
+                 echo $genotype[391][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+     <tr align = "center">
+       <td>IL17A</td>
+       <td>GG</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[385][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[385][3].'</div>';
+                 echo $genotype[385][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+
+     <tr align = "center">
+       <td>HLA-DP</td>
+       <td>GG</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[386][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[386][3].'</div>';
+                 echo $genotype[386][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+     <tr align = "center">
+       <td>CCR2</td>
+       <td>GG</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[393][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[393][3].'</div>';
+                 echo $genotype[393][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+     <tr align = "center">
+       <td>TLR9</td>
+       <td>AA</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[392][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[392][3].'</div>';
+                 echo $genotype[392][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+
+
+
+
+     <tr align = "center">
+       <th rowspan = "1">
+         <ul style="list-style-type:none; text-align: left">
+           <li>染色體完整性的調控：</li>
+           <li>帶有高風險基因型因端粒酶活性異常而<br>
+               影響染色體的完整性，增加癌變發生。
+           </li>
+         </ul>
+       </th>
+
+       <td>TERT</td>
+       <td>AA</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[394][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[394][3].'</div>';
+                 echo $genotype[394][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+
+
+     <tr align = "center">
+      <th rowspan = "2">
+        <ul style="list-style-type:none; text-align: left">
+          <li>細胞凋亡的調控：</li>
+          <li>帶有高風險基因型會使腫瘤壞死因子表<br>
+              現異常或影響程序化細胞死亡的調控平<br>
+              衡，以致細胞過度生長及分化，增加細<br>
+              胞癌變的發生。<br>
+          </li>
+        </ul>
+      </th>
+
+      <td>TNF-α</td>
+      <td>GG</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[395][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[395][3].'</div>';
+                echo $genotype[395][2];
+          ?>
+        </font>
+      </td>
+    </tr>
+
+    <tr align = "center">
+      <td>GSDMB</td>
+      <td>AA</td>
+      <td align = "center">
+        <font face = "">
+          <?php echo '<div style="Color:'.(($genotype[383][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[383][3].'</div>';
+                echo $genotype[383][2];
+          ?>
+        </font>
+      </td>
+    </tr>
+
+
+    <tr align = "center">
+     <th rowspan = "3">
+       <ul style="list-style-type:none; text-align: left">
+         <li>細胞黏著的調控：</li>
+         <li>帶有高風險基因型會使細胞間黏附分子<br>
+             的作用異常，影響細胞間膜表面受體訊<br>
+             號轉導，使癌症易感性提高。<br>
+         </li>
+       </ul>
+     </th>
+
+     <td>CD226</td>
+     <td>AA</td>
+     <td align = "center">
+       <font face = "">
+         <?php echo '<div style="Color:'.(($genotype[384][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[384][3].'</div>';
+               echo $genotype[384][2];
+         ?>
+       </font>
+     </td>
+   </tr>
+
+   <tr align = "center">
+     <td>OPN</td>
+     <td>TT</td>
+     <td align = "center">
+       <font face = "">
+         <?php echo '<div style="Color:'.(($genotype[389][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[389][3].'</div>';
+               echo $genotype[389][2];
+         ?>
+       </font>
+     </td>
+   </tr>
+
+
+   <tr align = "center">
+     <td>EpCAM</td>
+     <td>CC</td>
+     <td align = "center">
+       <font face = "">
+         <?php echo '<div style="Color:'.(($genotype[388][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[388][3].'</div>';
+               echo $genotype[388][2];
+         ?>
+       </font>
+     </td>
+   </tr>
+
+   </table>
+
+
+    <ul style="list-style-type:none; text-align: left">
+      <li>備註：</li>
+      <li>(1)我們的基因型，一半來自父親，一半來自母親，因此每個人會有兩個對偶基因，如CC、CT。<br>
+          (2)<b><font color = "red">紅字標示判定為『高風險』基因型</font></b>。就您個人而言，帶有高風險基因型可能是導致該疾病發生的<br>
+          先天性影響因子，請多加留意。<br>
+          (3)基因檢測是基於遺傳因子來評估疾病發生風險，不是臨床診斷。
+      </li>
+    </ul>
+
+  </div>
+
+
+
+
+   <div class="disease_title">
+      <table class="table_disease_tile">
+       <tr>
+         <th>膀胱癌</th>
+         <th>盛行率</th>
+       </tr>
+
+
+       <tr>
+         <td>
+           <ul style="list-style-type:square;">
+             <li>膀胱癌是泌尿系統第二好發的癌症。
+             </li>
+             <li>常見的危險因子包含:抽菸、工作環境(如接觸化學藥劑、卡車駕駛、鉛<br>
+                 管工、美髮師等)、膀胱相關發炎與感染、結石常吃醃製、炭烤食物等。
+             </li>
+           </ul>
+         </td>
+
+
+         <td>
+           <ul style="list-style-type:none;">
+             <li>男性約萬分之5.5~6<br>
+                 女性約萬分之3.2~3.6<br>
+                 男性比女性易患<br>
+                 比率1.63比1
+             </li>
+           </ul>
+         </td>
+
+       </tr>
+
+     </table>
+
+
+   </div>
+
+
+
+
+   <div class="disease_detail">
+
+
+     <table class="table_disease_detail" FRAME="VOID" BORDER="2" RULES="ALL">
+
+       <tr align="center">
+         <th scope=col>項目</th>
+         <th scope=col>基因功能類別</th>
+         <th scope=col>基因名稱</th>
+         <th scope=col>一般風險基因型</th>
+         <th scope=col>您的基因型</th>
+       </tr>
+
+
+       <tr align="center">
+         <th rowspan = "10">
+           <font color = "#5DADE2">膀胱癌</font>
+         </th>
+
+         <th rowspan = "2">
+           <ul style="list-style-type:none; text-align: left">
+             <li>影響DNA修復能力：<li>
+             <li>帶有高風險基因型會影響鹼基切除修復<br>
+                 (BER)、DNA雙鏈斷裂修復、訊號傳遞<br>
+                 等調控作用，使DNA損傷造成的異常逐<br>
+                 漸在體內累積。
+             </li>
+           </ul>
+         </th>
+
+         <td>XRCC3</td>
+         <td>CC</td>
+         <td align = "center">
+           <font face = "">
+             <?php echo '<div style="Color:'.(($genotype[261][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[261][3].'</div>';
+                   echo $genotype[261][2];
+             ?>
+           </font>
+         </td>
+       </tr>
+
+       <tr align = "center">
+         <td>hOGG1</td>
+         <td>GG</td>
+         <td align = "center">
+           <font face = "">
+             <?php echo '<div style="Color:'.(($genotype[264][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[264][3].'</div>';
+                   echo $genotype[264][2];
+             ?>
+           </font>
+         </td>
+       </tr>
+
+
+        <tr align = "center">
+         <th rowspan = "3">
+           <ul style="list-style-type:none; text-align: left">
+             <li>免疫反應的調節：</li>
+             <li>帶有高風險基因型會使體內發炎激素<br>
+                 或細胞介素的誘發表現量異常，提高<br>
+                 膀胱癌易感性。<br>
+             </li>
+           </ul>
+         </th>
+
+         <td>IL-17-1</td>
+         <td>AA</td>
+         <td align = "center">
+           <font face = "">
+             <?php echo '<div style="Color:'.(($genotype[257][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[257][3].'</div>';
+                   echo $genotype[257][2];
+             ?>
+           </font>
+         </td>
+       </tr>
+
+       <tr align = "center">
+         <td>IL-17-2</td>
+         <td>CC</td>
+         <td align = "center">
+           <font face = "">
+             <?php echo '<div style="Color:'.(($genotype[258][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[258][3].'</div>';
+                   echo $genotype[258][2];
+             ?>
+           </font>
+         </td>
+       </tr>
+
+
+       <tr align = "center">
+         <td>TLR4</td>
+         <td>GG</td>
+         <td align = "center">
+           <font face = "">
+             <?php echo '<div style="Color:'.(($genotype[262][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[262][3].'</div>';
+                   echo $genotype[262][2];
+             ?>
+           </font>
+         </td>
+       </tr>
+
+
+       <tr align = "center">
+        <th rowspan = "4">
+          <ul style="list-style-type:none; text-align: left">
+            <li>細胞生長的調控：</li>
+            <li>帶有高風險基因型會使表皮生長因子<br>
+                受器(EGFR)過度表現或影響表皮生長<br>
+                因子受器之調控機轉(EGFR pathway)<br>
+                ，還包括基因轉錄、細胞分化等調控皆<br>
+                可能失衡。
+            </li>
+          </ul>
+        </th>
+
+        <td>PSCA</td>
+        <td>CC</td>
+        <td align = "center">
+          <font face = "">
+            <?php echo '<div style="Color:'.(($genotype[259][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[259][3].'</div>';
+                  echo $genotype[259][2];
+            ?>
+          </font>
+        </td>
+      </tr>
+
+      <tr align = "center">
+        <td>EGRF</td>
+        <td>TT</td>
+        <td align = "center">
+          <font face = "">
+            <?php echo '<div style="Color:'.(($genotype[263][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[263][3].'</div>';
+                  echo $genotype[263][2];
+            ?>
+          </font>
+        </td>
+      </tr>
+
+
+      <tr align = "center">
+        <td>has-miR-146a</td>
+        <td>CC</td>
+        <td align = "center">
+          <font face = "">
+            <?php echo '<div style="Color:'.(($genotype[265][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[265][3].'</div>';
+                  echo $genotype[265][2];
+            ?>
+          </font>
+        </td>
+      </tr>
+
+      <tr align = "center">
+        <td>CCND1</td>
+        <td>GG</td>
+        <td align = "center">
+          <font face = "">
+            <?php echo '<div style="Color:'.(($genotype[266][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[266][3].'</div>';
+                  echo $genotype[266][2];
+            ?>
+          </font>
+        </td>
+      </tr>
+
+
+
+      <tr align = "center">
+       <th rowspan = "1">
+         <ul style="list-style-type:none; text-align: left">
+           <li>細胞凋亡的調控：</li>
+           <li>帶有高風險基因型會影響程序化細胞死<br>
+               亡的調控平衡，增加細胞癌變。
+           </li>
+         </ul>
+       </th>
+
+       <td>P53</td>
+       <td>GG</td>
+       <td align = "center">
+         <font face = "">
+           <?php echo '<div style="Color:'.(($genotype[260][5] > 1) ? $color_highrisk : $color_lowrisk).'">'.$genotype[260][3].'</div>';
+                 echo $genotype[260][2];
+           ?>
+         </font>
+       </td>
+     </tr>
+
+
+
+     </table>
+
+
+      <ul style="list-style-type:none; text-align: left">
+        <li>備註：</li>
+        <li>(1)我們的基因型，一半來自父親，一半來自母親，因此每個人會有兩個對偶基因，如CC、CT。<br>
+            (2)<b><font color = "red">紅字標示判定為『高風險』基因型</font></b>。就您個人而言，帶有高風險基因型可能是導致該疾病發生的<br>
+            先天性影響因子，請多加留意。<br>
+            (3)基因檢測是基於遺傳因子來評估疾病發生風險，不是臨床診斷。
+        </li>
+      </ul>
+
+    </div>
+
+
 
 
 </body>
